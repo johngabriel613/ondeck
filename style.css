@@ -141,6 +141,7 @@ main{
 
 .main-text p{
     color: #6c6c6c;
+    line-height: 25px;
 }
 
 .main-text a{
