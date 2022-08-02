@@ -121,9 +121,12 @@ nav a, .cta a{
     display: none;
 }
 
+@media (hover:hover){
+    
 #products:hover ~ .products-wrapper, .products-wrapper:hover{
     visibility: visible;
     opacity: 1;
+}
 }
 
 
