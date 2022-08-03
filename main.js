@@ -1,11 +1,13 @@
-const openNav = document.querySelector('.menu')
-const closeNav = document.querySelector('.product-label img')
-const productNav = document.querySelector('.products-wrapper')
+//mobile navigation
 
-openNav.addEventListener('click', () => {
-    productNav.classList.add('active')
+const open = document.querySelector('.menu')
+const close = document.querySelector('.products-label img')
+const nav = document.querySelector('.products-wrapper')
+
+open.addEventListener('click', () => {
+    nav.classList.add('active')
 })
 
-closeNav.addEventListener('click', () => {
-    productNav.classList.remove('active')
+close.addEventListener('click', () => {
+    nav.classList.remove('active')
 })
